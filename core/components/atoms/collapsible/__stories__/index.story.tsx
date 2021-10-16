@@ -30,7 +30,7 @@ const customCode = `() => {
         height="100vh"
         onToggle={setExpanded}
       >
-        <div className="d-flex pt-4">
+        <div className="d-flex pt-4" style={{ height: "20px"}}>
           <Icon name="events" className="d-flex align-items-center px-5" />
           {expanded && (
             <Text className="mr-6">Collapsible</Text>
